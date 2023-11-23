@@ -81,6 +81,14 @@ export default {
     routerPath() {
       return this.$route.path
     }
+  },
+  mounted() {
+    let currentMenuItem = this.links.find(
+      ({ link }) => link === this.routerPath
+    )
+    if (currentMenuItem) {
+      this.sliderIndicator(currentMenuItem.id)
+    }
   }
 }
 </script>

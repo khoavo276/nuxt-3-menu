@@ -52,6 +52,14 @@ export default {
       })
     },
   },
+  mounted() {
+    let currentMenuItem = this.getNavTop.find(
+      ({ url }) => url === this.routerPath
+    )
+    if (currentMenuItem) {
+      this.sliderIndicator(currentMenuItem.id)
+    }
+  }
 }
 const getNavTop = [
   {
