@@ -33,22 +33,28 @@ export default {
       links: [
         {
           id: 1,
-          icon: 'fab fa-react',
-          text: 'React',
-          link: '/react'
+          icon: 'fab fa-home',
+          text: 'Home',
+          link: '/'
         },
         {
           id: 2,
           icon: 'fab fa-angular',
-          text: 'Angular',
-          link: '/angular'
+          text: 'React',
+          link: '/react'
         },
         {
           id: 3,
           icon: 'fab fa-vuejs',
+          text: 'Angular',
+          link: '/angular'
+        },
+        {
+          id: 1,
+          icon: 'fab fa-react',
           text: 'Vue',
           link: '/vue'
-        }
+        },
       ]
     }
   },
