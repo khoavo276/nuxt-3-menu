@@ -1,10 +1,9 @@
 <template>
   <div>
-    home
+    <p>angular</p>
   </div>
 </template>
 
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <style scoped></style>
